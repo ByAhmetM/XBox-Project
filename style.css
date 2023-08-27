@@ -1,0 +1,435 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5?styles=103510,103513,103511,103506,103508,103502,103504,103500');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border: none;
+    outline: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #373A3C;
+    width: 100%;
+    height: 6rem;
+    padding: 1.5rem 16rem;
+}
+
+header .navbar .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+header .navbar .menu ul li a {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+header .navbar .menu ul li .active {
+    color: #fff;
+}
+
+header .navbar .menu ul li a img {
+    margin-left: 0.5rem;
+}
+
+
+
+header .navbar .menu ul li a .userImg {
+    margin-right: 1rem;
+}
+
+
+
+
+header .navbar .menu ul li input {
+    width: 21rem;
+    height: 3.8rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+}
+
+
+
+header .navbar .menu ul li input::placeholder {
+    font-size: 1.6rem;
+    opacity: 0.4;
+    color: #435766;
+    width: 5rem;
+    line-height: 2rem;
+
+}
+
+header .home {
+    width: 100%;
+    height: calc(100vh - 6rem);
+    background: url(./images/bg.png), no-repeat;
+
+    background-size: cover;
+    position: relative;
+}
+
+header .home .textBox {
+    position: absolute;
+    top: 30rem;
+    right: 60rem;
+}
+
+header .home .textBox h3 {
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+header .home .textBox h5 {
+    font-size: 2.4rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+header .home .buttons {
+    position: absolute;
+    right: 46rem;
+    top: 55rem;
+
+}
+
+header .home .buttons button {
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 2.1rem;
+}
+
+header .home .buttons .button1 {
+    background-color: #8DD83D;
+    width: 13.6rem;
+    height: 3.8rem;
+    border-radius: 0.4rem;
+}
+
+header .home .buttons .button2 {
+    width: 14.8rem;
+    height: 3.8rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    margin-left: 1rem;
+}
+
+header .home .carouselImg {
+    position: absolute;
+    bottom: 5rem;
+    left: 48%;
+}
+
+header .home .iconPrev {
+    position: absolute;
+    top: 50%;
+    left: 6rem;
+}
+
+header .home .iconNext {
+    position: absolute;
+    top: 50%;
+    right: 6rem;
+}
+
+/* header end */
+
+
+/* container start */
+.container {
+    width: 100%;
+    height: 86.5rem;
+    background-color: #585c5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.container .head {
+    text-align: center;
+    margin-top: -15rem;
+}
+
+.container .head h3 {
+    margin-top: 2rem;
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.container .head h5 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.bottom-row .card {
+    width: 32rem;
+    height: 42rem;
+    border-radius: 0.4rem;
+    background-color: #fff;
+    border: 1px solid #8dd83d;
+}
+
+.bottom-row .card .image {
+    width: 31.8rem;
+    height: 18rem;
+    margin-bottom: 2rem;
+    background-color: #FAFAFA;
+}
+
+.bottom-row .card .image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+.bottom-row .card .image img {
+
+    width: 100%;
+
+}
+
+.bottom-row .card .image2 img {
+    width: 70%;
+}
+
+.bottom-row .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2rem;
+
+}
+
+.bottom-row .card .card-content p {
+    color: #435766;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.bottom-row .card .card-content h5 {
+    color: #435766;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+.bottom-row .card .card-content button {
+    width: 27.8rem;
+    height: 6rem;
+    border-radius: 0.4rem;
+    background-color: #8DD83D;
+    color: #fff;
+}
+
+/* container section end */
+
+/* games section start */
+
+.games {
+    width: 100%;
+    height: 88rem;
+    background: url(./images/gamesBg.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.games h2 {
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin-bottom: 7rem;
+}
+
+.games .games-btn {
+    width: 20.7rem;
+    height: 5.3rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    margin-top: 4rem;
+    transition: .3s;
+}
+
+.games .games-btn:hover {
+    transform: scale(1.1);
+}
+
+/* games section end */
+
+/* design section start */
+
+.design {
+    width: 100%;
+    height: 48rem;
+    background: url(./images/bottom-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.design .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+
+}
+
+.design .content h3 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.design .content p {
+    width: 53.3rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.design .content .buttons .button1 {
+    width: 20.7rem;
+    height: 6rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.design .content .buttons .button2 {
+    width: 27.8rem;
+    height: 6rem;
+    border-radius: 0.4rem;
+    background: #8DD83D;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 2rem;
+}
+
+/* design section end */
+
+/* footer start */
+
+footer {
+    width: 100%;
+    height: 39.5rem;
+    border-radius: 0.4rem;
+    background: #373A3C;
+}
+
+footer .row {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35rem;
+}
+
+footer .row .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .row .col h5 {
+    color: #7DD42F;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+footer .row .col ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+footer .row .col ul li a {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+footer .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    margin-top: 2rem;
+    padding: 3rem 10rem;
+}
+
+footer .footer-bottom h3 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
